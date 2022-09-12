@@ -1,0 +1,76 @@
+/*
+	SYNTAX:
+		selector{
+			property: value;
+		}pangcomment lang to
+*/
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h4{
+		font-family: "Montserrat", sans-serif;
+}
+
+img{
+	height: 180px;
+	width: 200px;
+	border: 3px solid green;
+	border-radius: 100%;
+}
+
+#landing{
+	/*vh - viewport height of monitor/screen*/
+	height: 100vh;
+	/*display flex allows to align elements horizontally abd veryically*/
+	display: flex;
+	flex-direction: column;
+	/*aligns the flex items horizontally*/
+	align-items: center;
+	/*aligns the flex items vertically*/
+	justify-content: center;
+}
+
+#gallery{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 90vh;
+	align-items: center;
+	border-radius: 6px;
+	color: #fff08d;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h2{
+	color: #007bff;
+}
+
+.tools{
+	border: 5px solid #f2f2f2;
+	height: 220px;
+	/*% dependes on the width of the parent element*/
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+
+.killua{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50vh;
+	align-items: center;
+	border-radius: 6px;
+	color: #0a2a4d;
+}
